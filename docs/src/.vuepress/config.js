@@ -54,7 +54,7 @@ module.exports = {
         {
           title: "UI/UX",
           collapsable: false,
-          children: ["", "using-vue", "my-trip-journal"],
+          children: ["", "using-vue", "my-trip-journal", "foo"],
         },
       ],
       "/Development/": [
