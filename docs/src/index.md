@@ -10,6 +10,6 @@ features:
   - title: Development 🤓
     details: Backend Architecture, Frontend Design, Data Flow, API spec, DB Relationships and etc.
   - title: Business 💼
-    details: Requirements, Model, Target, Users and Product
+    details: Requirements, Model, Target, Users and Product.
 footer: Made by  with by TBL Team ❤️
 ---

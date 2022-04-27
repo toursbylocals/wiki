@@ -7,10 +7,10 @@
     "name": "",
     "email": ""
   },
-  "repository": "wiki/wiki",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "deploy": "./scripts/deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
