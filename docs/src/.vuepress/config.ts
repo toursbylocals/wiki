@@ -1,4 +1,5 @@
 const { description } = require("../../package");
+import { scaffoldProject } from "../utils";
 
 module.exports = {
   /**
@@ -31,6 +32,7 @@ module.exports = {
    */
   themeConfig: {
     repo: "",
+    displayAllHeaders: true,
     editLinks: false,
     docsDir: "",
     editLinkText: "",
@@ -41,36 +43,39 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Config",
-        link: "/config/",
+        text: "Product",
+        link: "/product/",
       },
       {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: "Projects",
+        ariaLabel: "Companies's projects'",
+        items: [
+          { text: "MyTripJournal", link: "/mtj/" },
+          { text: "ToursByLocals", link: "/tbl/" },
+        ],
+      },
+      {
+        text: "Github",
+        link: "https://github.com/toursbylocals",
       },
     ],
     sidebar: {
-      "/mytripjournal/": [
+      "/mtj/": scaffoldProject("mtj", "MyTripJournal"),
+      "/tbl/": scaffoldProject("tbl", "ToursByLocals"),
+      "/guide/": [
         {
-          title: "UI/UX",
+          title: "Guide",
           collapsable: false,
-          children: ["", "using-vue", "my-trip-journal", "foo"],
+          children: [""],
         },
       ],
-      "/Development/": [
-        {
-          title: "UI/UX",
-          collapsable: false,
-          children: ["", "using-vue", "my-trip-journal"],
-        },
-      ],
-      "/Business/": [
-        {
-          title: "UI/UX",
-          collapsable: false,
-          children: ["", "using-vue", "my-trip-journal"],
-        },
-      ],
+      // "/Business/": [
+      //   {
+      //     title: "UI/UX",
+      //     collapsable: false,
+      //     children: ["", "using-vue", "my-trip-journal"],
+      //   },
+      // ],
     },
   },
   base: "/wiki/",
