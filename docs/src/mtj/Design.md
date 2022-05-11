@@ -1,3 +1,13 @@
-# Design
+# UI/UX Guidelines
 
-## Welcome Design
+## Landpage
+
+Hey you !
+
+## Home
+
+Hello World
+### Search
+
+Something else
+

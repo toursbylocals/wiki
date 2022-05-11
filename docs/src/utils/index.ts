@@ -2,10 +2,6 @@ import fs from "fs";
 import path from "path";
 import { SidebarConfigArray } from "vuepress/config";
 
-// fs.readdirSync(testFolder).forEach(file => {
-//   console.log(file);
-// });
-
 export function scaffoldProject(urlPath: string, projectName: string) {
   const _path = path.join(__dirname, "..", `/${urlPath}/`);
 
