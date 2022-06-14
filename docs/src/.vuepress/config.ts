@@ -62,13 +62,14 @@ module.exports = {
     sidebar: {
       "/mtj/": scaffoldProject("mtj", "MyTripJournal"),
       "/tbl/": scaffoldProject("tbl", "ToursByLocals"),
-      "/guide/": [
-        {
-          title: "Guide",
-          collapsable: false,
-          children: [""],
-        },
-      ],
+      "/guide/": scaffoldProject("guide", "Guide") 
+      // [
+      //   {
+      //     title: "Guide",
+      //     collapsable: false,
+      //     children: [""],
+      //   },
+      // ],
       // "/Business/": [
       //   {
       //     title: "UI/UX",
