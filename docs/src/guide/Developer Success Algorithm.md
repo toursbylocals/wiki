@@ -6,7 +6,7 @@ Here are all the tips you need to know to have a sucessfully started as a team m
 
 It is a step-by-step guide to explaining how the process of business logic, agile, analysis, execution, and test occur.
 
-#### What are the stopics related to this guide?
+#### What are the topics related to this guide?
 
 The Development Success Algorithm has the following topics:
 
