@@ -58,7 +58,7 @@ Figma is a vector graphics editor and prototyping tool which is primarily web-ba
 
 Slack is a messaging program designed specifically for the **workplace**. Slack includes persistent chat rooms organized by topic, private groups, and direct messaging.
 
-#### How to install
+#### How to Install
 
 1. [Download Slack Desktop App](https://slack.com/downloads/mac)
 1. Install Slack with a double-click on the .dmg file to open the disk image within the macOS Finder.
@@ -74,7 +74,7 @@ This guide is destined to explain how new developers obtain the right access to 
 
 For that, the developer needs to generate a token from **GitHub** and MongoDB.
 
-## Private Access
+## Private Registry
 
 ### GitHub Token
 
@@ -100,7 +100,7 @@ For that, the developer needs to generate a token from **GitHub** and MongoDB.
 
 1. To use your token to authenticate to an organization that uses SAML single sign-on, authorize the token. For more information, see "[Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)" in the **GitHub** Enterprise Cloud documentation.
 
-### MongoDB Token
+### MongoDB NeedToCheck
 
 In this guide, you will retrieve your database deployment's connection string.
 
@@ -187,6 +187,7 @@ After the private **GitHub** token is generated, the developer can use the token
 MONGO_CLOUD_URI=mongodb+srv:${tokenFromMongodb}
 APP_SECRET=tblsupersecret
 ```
+NeedToCheck
 
 6. Insert the token in the **mongodb+srv:** field. After that, delete **${tokenFromMongodb}** and replace it with the token you generated.
 
@@ -371,6 +372,7 @@ Select **Mail** and **Calendars**
 ## Agile
 
 This guide is destined to introduce the Agile methodology and its benefits using Scrum.
+NeedToCheck > Read more
 
 ### What are the main agile ceremonies?
 
