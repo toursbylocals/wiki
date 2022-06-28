@@ -1,15 +1,49 @@
-# Overview
+# Tech Stack
 
-Lorem ipsum dolor sit amet, consect.
+## Frontend
+- Language
+    - Typescript 
+- Components 
+    - React 
+    - Styled-Components
+    - *@dstbl (Internal Component Library)* 
+- Service / Http
+    - Apollo-graphql
+    - Axios
+    - Socket.io
+- State Management
+    - Redux-toolkit
+- Test
+    - Jest
+    - Cypress
+- Integrations
+    - TBD
+- Hosting
+    - Google Cloud Platform
 
-# UX Design
+## Backend 
+- Language 
+    - Typescript
+- Server
+    - Graphql
+    - Apollo
+    - Express
+- Test
+    - Jest
+- Security
+    - JTW (Json Web Token)
+- Models (ORM)
+    - Mongoose
+- Hosting
+    - Google Cloud Platform
 
-# UI Engineer
+## Database 
+- Historical Data
+    - FrontBase
+    - MongoDB
+- Cache
+    - Redis
+- Business Intelligence / Data Lake
+    - BigData - GCP
 
-# Backend Developer
 
-# Business Intelligence
-
-# DevOps
-
-# Software Architect
