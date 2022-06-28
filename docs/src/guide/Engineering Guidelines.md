@@ -1,6 +1,6 @@
-# Engineering philosophy
+# Overview
 
-Summarize our team's approach to engineering here.
+The Engineering guidelines are a collection of principles to provide a clear and simple way to start as a new team member.
 
 ## History
 
@@ -72,13 +72,33 @@ Main purposes:
 
 #### Space complexity
 
+> Analyse the total amount of memory space used by an algorithm/program including the space of input values for execution.
+
+Key points:
+
+- Space Complexity = Auxiliary space + Space use by input values
+- The best algorithm/program should have the lease space-complexity.
+- The lesser the space used, the faster it executes.
+
+[Examples](https://www.codingninjas.com/codestudio/library/space-complexity)
+
 #### Time complexity (Algo)
 
-# Patterns to follow
+> Represent the number of times a statement is executed.
+
+Key points:
+
+- [Big O notation](https://towardsdatascience.com/essential-programming-time-complexity-a95bb2608cac)
+- Best case vs. average case vs. worst case
+- The better the time complexity of an algorithm is, the faster the algorithm will carry out the work in practice.
+
+[Examples](https://www.codingninjas.com/codestudio/library/time-complexity)
+
+## Patterns to follow
 
 - We can create `inline code snippets` with the shortcut `cmd/ctrl + e`.
 
-# Code samples
+## Code samples
 
 Add code blocks for common snippets. Type `/code` and press `enter`. Choose the language you're using from the dropdown at the bottom right corner. Hover to copy with one click.
 
@@ -89,7 +109,3 @@ while (a <= 10) {
   a++;
 }
 ```
-
-<aside>
-💡 This template is to create guidelines for all of the engineers on our team. Add a table of contents by typing `/table of` and pressing `enter`.
-</aside>
