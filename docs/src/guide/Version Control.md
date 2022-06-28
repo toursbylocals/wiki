@@ -17,7 +17,7 @@
 - clone a repository
 
   ```
-  $ git clone <https://github.com/toursbylocals/wiki.git>
+  git clone <https://github.com/toursbylocals/wiki.git>
   ```
 
 - view the commit history
@@ -41,6 +41,7 @@
   ```
 
 - output the history in one line
+
   ```
   $ git log --pretty=oneline
   99b7544a736838af0077e9f83c0ae51f0598864c (HEAD -> wiki-2, origin/wiki-2) docs(Version Control): Add more standards and strategies
@@ -49,6 +50,7 @@
   ```
 
 - specify the log output format
+
   ```
   $ git log --pretty=format:"%h - %an, %ar : %s"
   99b7544 - Jenny Jiang, 2 days ago : docs(Version Control): Add more standards and strategies
@@ -65,8 +67,8 @@
 - Set your Git username and email. It's recommended to use real name and valid email.
 
   ```
-  $ git config --global user.name "Jenny Jiang"
-  $ git config --global user.email "xxxx@toursbylocals.com"
+  git config --global user.name "Jenny Jiang"
+  git config --global user.email "xxxx@toursbylocals.com"
   ```
   
 ### Branch naming standards
@@ -150,12 +152,13 @@
 
 - Once you have created a new branch and you are ready to work on new feature, please always remember to create a pull request and attach it to your task ticket in Zenhub.
 
-  - **git add .**
+  - **git add .** add changes in the working directory to the staging area
   - **yarn c** then answer the questions (can skip a question if it's not necessary to answer)
   - **git push origin tbl-###**
   - find the pull request you just created from Pull requests tab in GitHub
   - click your pull request, and click Connect Issue.
   - search and select your task ticket to connect the pull request and the task ticket.
+  - remember to choose dev as your base instead of main.
 
 - In ZenHub, you should see the task ticket is chained to the pull requests. All other members are now able to follow up on the new updates and changes.
 - Try to push often and ask for feedback to check if the work is going in the right direction.
@@ -178,49 +181,49 @@
 - install yarn
 
   ```
-  $ npm install --global yarn
+  npm install --global yarn
   ```
 
 - check installation
 
   ```
-  $ yarn --version
+  yarn --version
   ```
 
 - run project
 
   ```
-  $ yarn dev
+  yarn dev
   ```
 
 - run testing
 
   ```
-  $ yarn test
+  yarn test
   ```
 
 - switch between branches or restore working tree files
 
   ```
-  $ git checkout -b wiki-2
+  git checkout -b wiki-2
   ```
 
 - record changes to the repository
 
   ```
-  $ git commit
+  git commit
   ```
 
 - upload local repository content to a remote repository
 
   ```
-  $ git push origin wiki-2
+  git push origin wiki-2
   ```
 
 - fetch from and integrate with another repository or a local branch
 
   ```
-  $ git pull origin dev
+  git pull origin dev
   ```
 
 ![GitExample](https://querix.com/go/lycia/Content/Resources/Images/05_workbench/01_ls/04_how_to/10_repos/git_files/git_00_intro_01_sections.png)
@@ -231,12 +234,12 @@
   1. Generate .md file using git log
 
     ```
-    $ git log --pretty="- %s" > CHANGELOG.md
+    git log --pretty="- %s" > CHANGELOG.md
     ```
 
   2. Generate .md file using generator package
 
     ```
-    $ npm install generate-changelog -g
-    $ changelog generate
+    npm install generate-changelog -g
+    changelog generate
     ```
