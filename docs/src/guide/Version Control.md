@@ -205,7 +205,39 @@
 - switch between branches or restore working tree files
 
   ```
-  git checkout -b wiki-2
+  git checkout wiki-2
+  ```
+
+- create new branch
+
+  ```
+  git checkout - b wiki-3
+  git branch wiki-3
+  ```
+
+- delete existing branch
+
+  ```
+  git branch -d wiki-3
+  ```
+
+- track changes
+
+  ```
+  git status
+  ```
+
+- stage changes
+
+  ```
+  git add -a 
+  git add . 
+  ```
+
+- add commit message
+
+  ```
+  git commit - m "XXXXX"
   ```
 
 - record changes to the repository
@@ -224,6 +256,28 @@
 
   ```
   git pull origin dev
+  ```
+
+- track commits
+
+  ```
+  git blame README.md
+  ```
+
+- create repository tag/versioning
+
+  ```
+  git tag v1.0.0
+  git push --tags
+  git tag -a v2.0.1 => write release notes
+  ```
+
+- diagnose bad commit
+
+  ```
+  git bisect start
+  git bisect good
+  got bisect bad 
   ```
 
 ![GitExample](https://querix.com/go/lycia/Content/Resources/Images/05_workbench/01_ls/04_how_to/10_repos/git_files/git_00_intro_01_sections.png)
