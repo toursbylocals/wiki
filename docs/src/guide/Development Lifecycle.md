@@ -1,34 +1,58 @@
-# Getting Started
+# Overview
 
-Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+Development lifecycle is a defined processes for a developer team within ToursByLocals to be used to design, develope and test a high quality codeing. These following phases of development will impove the quality of projects.
 
-## What is it?
+## Onboarding Initiative
 
-Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+- install and configure softwares up to date
+- learn how MTJ and TBL works
+  - database
+  - code
+  - live website
+  - documentation
+- go though Wiki step by step
 
-#### What are the stopics related to this guide?
+## Initiative Analysis / Evaluation
 
-The Development Licecycle has the following topics:
+- getter all infromation from all department stackeholders such as, operation, marketing, accounting, etc.
+- analyze the project (bugs, enhancements or new features)
+- identify the benefits and risks associated with the project
 
-```
-1.  Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+## Epics / Stories
 
-2.  Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+- depends on the size of task, ticket or project, it can be segmented into specific tasks (called "Stories")
+- the bodies before it broken down into mutiple stories is called "Epcis"
+- epics are helpful way to organize projects and easy to break work down into shippable pieces per each sprints
 
-3.  Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+## Grooming
 
-4.  Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+- create/update stories based on feedbacks and requirements
+- collaborate with development team members and product owners
+- discuss the technical feasibility and risks
+- ensure that everyone understands the purpose of the stories and how it should be implemented
 
-5.  Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+## Planning
 
-```
+- analyze each stories and estimate the points
 
-**Visual representation of the Licecycle**
+## Coding
 
-Lorem Ipsum.png [photo.png]
+- make sure to follow the desciption as written in a task and start to develope
 
-## How to use it?
+## Testing
 
-- Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
-- Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
-- Lorem Ipsum, lorem Ipsum, orem Ipsum, lorem Ipsum.
+- test the product that is built
+- report product defects, track, fix and retest until the product reachs to the quality as describe in a task
+
+## Reviewing
+
+- demonstrate it to the development team members and product owners
+- discusss if there was any blocks
+
+## QA'ing
+
+- make sure the product is at the highest quality and other related products are working correctly
+
+## Release
+
+- deploy the product to production environment so users can start using the product
