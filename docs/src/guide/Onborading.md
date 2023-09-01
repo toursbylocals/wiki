@@ -83,7 +83,7 @@ For that, the developer needs to generate a token from **GitHub** and MongoDB.
 1. [Verify your email address](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address), if it hasn't been verified yet.
 1. In the upper-right corner of **GitHub** page, click your profile photo, then click Settings.
 
-1. In the left sidebar, click  Developer settings.
+1. In the left sidebar, click Developer settings.
 1. In the left sidebar, click Personal access tokens.
 
 1. Click Generate new token.
@@ -100,7 +100,7 @@ For that, the developer needs to generate a token from **GitHub** and MongoDB.
 
 1. To use your token to authenticate to an organization that uses SAML single sign-on, authorize the token. For more information, see "[Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)" in the **GitHub** Enterprise Cloud documentation.
 
-### MongoDB NeedToCheck
+### MongoDB
 
 In this guide, you will retrieve your database deployment's connection string.
 
@@ -151,7 +151,7 @@ After the private **GitHub** token is generated, the developer can use the token
 
 ```
 
-6. Insert the token in the **_authToken** field. After that, delete **${token}** and replace it with the token you generated.
+6. Insert the token in the **\_authToken** field. After that, delete **${token}** and replace it with the token you generated.
 
 7. Open the terminal and type the following line:
 
@@ -187,6 +187,7 @@ After the private **GitHub** token is generated, the developer can use the token
 MONGO_CLOUD_URI=mongodb+srv:${tokenFromMongodb}
 APP_SECRET=tblsupersecret
 ```
+
 NeedToCheck
 
 6. Insert the token in the **mongodb+srv:** field. After that, delete **${tokenFromMongodb}** and replace it with the token you generated.
@@ -281,7 +282,7 @@ There are two ways to ensure your team members gain access to ZenHub:
 
 1. When viewing a Workspace, navigate to the sidebar navigation where you will see the **Invite your team** option.
 
-1. Selecting the **Invite your team** option will open up a pop-up modal where you can enter your team member's **email** address**.
+1. Selecting the **Invite your team** option will open up a pop-up modal where you can enter your team member's **email** address\*\*.
 
 ---
 
@@ -293,7 +294,7 @@ There are two ways to ensure your team members gain access to ZenHub:
 
 **Please note the following:**
 
-1. If you and your team use **GitHub** with **ZenHub**, you must **first invite** your team members to your **GitHub** Organization**before inviting them to**ZenHub**
+1. If you and your team use **GitHub** with **ZenHub**, you must **first invite** your team members to your **GitHub** Organization**before inviting them to**ZenHub\*\*
 
 1. Invite links to expire after **48 hours.**
 
@@ -311,7 +312,7 @@ If you and your team use **GitHub** with **ZenHub**, they will need to connect t
 
 1. Click **cluster** of profile pictures in the **top** **right**.
 
-1. Click  **Add** **people**.
+1. Click **Add** **people**.
 
 1. To add a few people, search for the members you'd like to add by **name**, **email** **address**, or **user** **group** and **select** **them**. To add a large group, paste the list of **names** or **email** **addresses** into the field.
 
@@ -335,9 +336,9 @@ Note: Workspace Owners can [approve certain email domains](https://slack.com/hel
 
 ### How to get Invited to the Workspace
 
-1. Download the desktop app , you can also download the app for  Android or IOS.
+1. Download the desktop app , you can also download the app for Android or IOS.
 
-1. Use your **@tblinternal.com email address** to create your account or ask the **admin (IT)**  to send you an invitation to join Slack.
+1. Use your **@tblinternal.com email address** to create your account or ask the **admin (IT)** to send you an invitation to join Slack.
 
 1. Join **ToursByLocals Workspace**
 

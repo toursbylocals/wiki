@@ -1,5 +1,4 @@
-﻿
-# Getting Started
+﻿# Getting Started
 
 The Agile Process guide is a collection of standard steps to provide a clear and simple way of how the team initiates discussions, collaborates, tracks and delivers tasks.
 
@@ -7,19 +6,18 @@ The Agile Process guide is a collection of standard steps to provide a clear and
 
 Agile is an umbrella term for several methods and practices. It creates a continuous improvement mindset that values flexibility, adaptability, collaboration, and efficiency. It is non-linear, focuses on flexibility, collaboration between team members, and delivering consistent value to stakeholders. Teams work in brief, incremental “sprints” frequently regrouping to review the work and make changes.
 
-<!-- 
+<!--
   Agile vs Waterfall methodologies /img -->
-
 
 ### Scrum Methodology
 
 Scrum is an [agile development methodology](https://www.digite.com/agile/agile-methodology/) used in the development of Software based on iterative and incremental processes. We use the Scrum framework to guide our workflow. Having a structure to follow means we can easily share, track and improve our deliverables.
 
-#### Scrum Team 
+#### Scrum Team
 
-Developers, BPAs, CTO and Lead Full Stack Developer.
+Tech Leads, Developers, Business / Project Managers, CTO.
 
-#### The Three Scrum Artifacts
+### The Three Scrum Artifacts
 
 Scrum uses three artifacts to help manage work:
 
@@ -43,7 +41,7 @@ Scrum divides work into smaller work parcels known as sprints, a short period of
 
 Ceremonies are recurring events that occur inside each sprint. They help us adapt to change and succeed. With work planned in smaller portions and over shorter timeframes we can quickly shift direction and course-correct when needed.
 
-1. Sprint Planning  
+1. Sprint Planning
 
 #### Goal
 
@@ -80,7 +78,7 @@ A typical deck has cards showing the Fibonacci sequence ( (1, 2, 3, 5, 8, 13, 21
 1. Time estimate: Up to 3 days
 1. Time estimate: Too big to be a story and requires to be broken down into smaller pieces
 
-After some team negotiation and discussion, we have a clear decision on the work that the Development Team can complete during the sprint, our sprint goal, as well as the effort (total sum of points) this will take.  
+After some team negotiation and discussion, we have a clear decision on the work that the Development Team can complete during the sprint, our sprint goal, as well as the effort (total sum of points) this will take.
 
 #### #### 2. Daily Stand-Up
 
@@ -152,7 +150,7 @@ At the end of the sprint, after Sprint Review.
 
 ### What Happens in a Sprint Retrospective?
 
- Sprint retrospectives focus on the process (how we do things). During a sprint retrospective, the scrum team discusses what went right and areas for improvement in the sprint. They make tangible plans for how to improve their own process, tools and relationships
+Sprint retrospectives focus on the process (how we do things). During a sprint retrospective, the scrum team discusses what went right and areas for improvement in the sprint. They make tangible plans for how to improve their own process, tools and relationships
 
 #### Zenhub Board
 
@@ -168,7 +166,7 @@ Large user story which is too big to fit into a sprint. This high-level story is
 
 Low priority Issues that do not need to be addressed in the near future.
 
-#### Backlog 
+#### Backlog
 
 Upcoming Issues that have been reviewed, estimated, and prioritized top-to-bottom.
 
@@ -176,17 +174,17 @@ Upcoming Issues that have been reviewed, estimated, and prioritized top-to-botto
 
 Issues ready to be worked on in the sprint, prioritized top-to-bottom. (Sprint Backlog) Issues being worked on are assigned to a team member and moved to In progress.
 
-#### In Progress 
+#### In Progress
 
 Issues currently being worked on by the team. The team member working on a certain issue is assigned on each ticket.
 
-#### Review 
+#### Code Review
 
-Issues open to the team for review and testing. Code complete, pending feedback.
+Tasks to be code-reviewed and validated. Code complete, pending feedback.
 
-#### QA/Test
+#### UI Review / QA
 
-Issues tested and ready to be deployed to production
+Tasks or UI designs that have been reviewed and ready to be QA'ed or evaluated.
 
 #### Ready for Production
 

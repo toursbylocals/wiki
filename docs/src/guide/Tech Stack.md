@@ -1,49 +1,50 @@
 # Tech Stack
 
 ## Frontend
+
 - Language
-    - Typescript 
-- Components 
-    - React 
-    - Styled-Components
-    - *@dstbl (Internal Component Library)* 
+  - Typescript
+- Components
+  - React
+  - Styled-Components
+  - _@dstbl (Internal Component Library)_
 - Service / Http
-    - Apollo-graphql
-    - Axios
-    - Socket.io
+  - Apollo-graphql
+  - Axios
+  - Socket.io
 - State Management
-    - Redux-toolkit
+  - Redux-toolkit
 - Test
-    - Jest
-    - Cypress
+  - Jest
+  - Cypress
 - Integrations
-    - TBD
+  - TBD
 - Hosting
-    - Google Cloud Platform
+  - Google Cloud Platform
 
-## Backend 
-- Language 
-    - Typescript
+## Backend
+
+- Language
+  - Typescript
 - Server
-    - Graphql
-    - Apollo
-    - Express
+  - Graphql
+  - Apollo
+  - Express
 - Test
-    - Jest
+  - Jest
 - Security
-    - JTW (Json Web Token)
+  - JTW (Json Web Token)
 - Models (ORM)
-    - Mongoose
+  - Mongoose
 - Hosting
-    - Google Cloud Platform
+  - Google Cloud Platform
 
-## Database 
+## Database
+
 - Historical Data
-    - FrontBase
-    - MongoDB
+  - FrontBase
+  - MongoDB
 - Cache
-    - Redis
+  - Redis
 - Business Intelligence / Data Lake
-    - BigData - GCP
-
-
+  - BigData - GCP
