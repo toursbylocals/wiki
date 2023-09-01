@@ -42,10 +42,10 @@ module.exports = {
         text: "Guide",
         link: "/guide/",
       },
-      {
-        text: "Product",
-        link: "/product/",
-      },
+      // {
+      //   text: "Product",
+      //   link: "/product/",
+      // },
       {
         text: "Projects",
         ariaLabel: "Companies's projects'",
@@ -62,7 +62,7 @@ module.exports = {
     sidebar: {
       "/mtj/": scaffoldProject("mtj", "MyTripJournal"),
       "/tbl/": scaffoldProject("tbl", "ToursByLocals"),
-      "/guide/": scaffoldProject("guide", "Guide") 
+      "/guide/": scaffoldProject("guide", "Guide"),
       // [
       //   {
       //     title: "Guide",
