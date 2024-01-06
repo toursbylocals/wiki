@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Wiki - Internal documentation
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /frontend/
 features:
   - title: UI / UX 👨‍🎨
     details: Design System, Wireframes, User flow, UX Research, Mockups and etc.

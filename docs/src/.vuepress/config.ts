@@ -42,6 +42,10 @@ module.exports = {
         text: "Guide",
         link: "/guide/",
       },
+      {
+        text: "Frontend",
+        link: "/frontend/",
+      },
       // {
       //   text: "Product",
       //   link: "/product/",
@@ -63,6 +67,7 @@ module.exports = {
       "/mtj/": scaffoldProject("mtj", "MyTripJournal"),
       "/tbl/": scaffoldProject("tbl", "ToursByLocals"),
       "/guide/": scaffoldProject("guide", "Guide"),
+      "/frontend/": scaffoldProject("frontend", "Frontend"),
       // [
       //   {
       //     title: "Guide",
